@@ -1,0 +1,269 @@
+// technical
+import AstranovaCoding from "../assets/event-images/celestra-coding.jpg";
+import BugBusters from "../assets/event-images/bug-busters.jpg";
+// import WebMasters from "../assets/event-images/web-masters.jpg";
+import Technicalquiz from "../assets/event-images/technical-quiz.jpg";
+import Ideathon from "../assets/event-images/ideathon.jpg";
+import Seminar from "../assets/event-images/seminar.jpg";
+import Workshop from "../assets/event-images/workshop.jpg";
+import Reversecoding from "../assets/event-images/reversecoding.jpg";
+import RelayCoding from "../assets/event-images/relay-coding.jpg";
+import CodeHunt from "../assets/event-images/code-hunt.png";
+import PromptEngineering from "../assets/event-images/prompt-engineering.jpg";
+import RapidCoding from "../assets/event-images/rapid-coding.jpg";
+
+// non-technical
+import TreasureHunt from "../assets/event-images/treasure-hunt.jpg";
+import AnimeQuiz from "../assets/event-images/animequiz.jpg";
+import Connexion from "../assets/event-images/connexion.jpg";
+import KollywoodQuiz from "../assets/event-images/moviequiz.jpg";
+import PosterDesiging from "../assets/event-images/poster-designing.jpg";
+import DumbCharades from "../assets/event-images/dumb-charades.jpg";
+import MaathiYosi from "../assets/event-images/maathi-yosi.jpg";
+
+// Elite
+import PaperPresentation from "../assets/event-images/paperpresentation.jpg";
+import Valorant from "../assets/event-images/valorant.jpg";
+import FreeFire from "../assets/event-images/freefire.jpg";
+
+// technical
+export const technicalEvents = [
+  {
+    id: 1,
+    title: "Reverse Coding",
+    href: "/events/reverse-coding",
+    description:
+      "Are you a passionate coder looking for an opportunity to showcase your skills? If yes, then join us for our upcoming Competitive Coding Challenge!",
+    imageUrl: Reversecoding,
+    date: 8,
+  },
+  {
+    id: 2,
+    title: "Technical Quiz",
+    href: "/events/technical-quiz",
+    description:
+      "Get ready to test your knowledge and sharpen your skills in the ultimate battle of the brains! It's a high-octane, adrenaline-fueled showdown that will put your expertise to the test.",
+    imageUrl: Technicalquiz,
+    date: 8,
+  },
+  {
+    id: 3,
+    title: "Code Hunt",
+    href: "/events/code-hunt",
+    description:
+      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+    imageUrl: CodeHunt,
+    date: 8,
+  },
+  {
+    id: 4,
+    title: "Bug Busters",
+    href: "/events/bug-busters",
+    description:
+      "Get ready for the ultimate Bug Bash! Form a team of three and put your collective debugging skills to the test in this exciting competition.Hunt down and fix the trickiest bugs to emerge as the top bug busters!",
+    imageUrl: BugBusters,
+    date: 9,
+  },
+  {
+    id: 5,
+    title: "Ideathon",
+    href: "/events/ideathon",
+    description:
+      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+    imageUrl: Ideathon,
+    date: 9,
+  },
+  {
+    id: 6,
+    title: "Relay Coding",
+    href: "/events/relay-coding",
+    description:
+      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+    imageUrl: RelayCoding,
+    date: 9,
+  },
+  {
+    id: 7,
+    title: "Prompt Engineering",
+    href: "/events/prompt-engineering",
+    description:
+      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+    imageUrl: PromptEngineering,
+    date: 9,
+  },
+  {
+    id: 8,
+    title: "Paper Presentation",
+    href: "/events/paper-presentation",
+    description:
+      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+    imageUrl: PaperPresentation,
+    date: 8,
+  },
+  // {
+  //   id: 5,
+  //   title: "Web Masters",
+  //   href: "/events/web-masters",
+  //   description:
+  //     "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+  //   imageUrl: WebMasters,
+  //   date: 9,
+  // },
+  {
+    id: 9,
+    title: "Seminar",
+    href: "/events/seminar",
+    description:
+      "In reality every industry is bound to be automated.There is already software that can efficiently perform the analysis. Artificial intelligence and Machine learning are bound to take the place of human beings in this field too.",
+    imageUrl: Seminar,
+    date: 8,
+    comingSoon: true,
+  },
+  {
+    id: 10,
+    title: "Workshop",
+    href: "/events/workshop",
+    description:
+      "This workshop focuses on leveraging the Python programming language and the Django framework for the purpose of developing a robust backend. Participants will have the opportunity to acquire practical experience through interactive training sessions.",
+    imageUrl: Workshop,
+    date: 9,
+    comingSoon: true,
+  },
+];
+
+// non-technical
+export const nonTechnicalEvents = [
+  {
+    id: 1,
+    title: "Treasure Hunt",
+    href: "/events/treasure-hunt",
+    description:
+      "Embark on an exhilarating treasure hunt, solving cryptic clues and navigating through hidden challenges to unveil the ultimate prize in this thrilling and immersive adventure game. Uncover secrets, test your wits, and race against time to claim the coveted treasure!",
+    imageUrl: TreasureHunt,
+    date: 8,
+  },
+  {
+    id: 2,
+    title: "Anime Quiz",
+    href: "/events/anime-quiz",
+    description:
+      "Gear up for an unforgettable anime quiz experience and showcase your anime knowledge like never before! Are you ready to rise to the challenge and claim your spot as the ultimate anime aficionado? Join us and let the quizzing begin!",
+    imageUrl: AnimeQuiz,
+    date: 8,
+  },
+  {
+    id: 3,
+    title: "Connexion",
+    href: "/events/connexion",
+    description:
+      "Connexion is a captivating picture-based guessing game where players decipher the correct answer by connecting images with the aid of provided clues.",
+    imageUrl: Connexion,
+    date: 8,
+  },
+  {
+    id: 4,
+    title: "Kollywood Quiz",
+    href: "/events/kollywood-quiz",
+    description:
+      "Dive into the enchanting realm of South Indian cinema with the 'Kollywood Quiz'! From timeless classics to contemporary blockbusters, test your Tamil cinema expertise in a friendly and entertaining competition. We celebrate the magic of Kollywood together. Don't miss this chance to showcase your love for Tamil cinema!",
+    imageUrl: KollywoodQuiz,
+    date: 9,
+  },
+  {
+    id: 5,
+    title: "Poster Designing",
+    href: "/events/poster-designing",
+    description:
+      "Get ready to ignite your imagination and unleash your creativity in our poster designing competition! Show off your artistic flair and design the poster of tomorrow that will leave everyone in awe. Don't miss this chance to make your mark and shine bright!",
+    imageUrl: PosterDesiging,
+    date: 8,
+  },
+  {
+    id: 6,
+    title: "Maathi Yosi",
+    href: "/events/maathi-yosi",
+    description:
+      "Try your best to not answer the question! Reply to as many questions as you can without giving a logical answer to any of them. If your answer is even slightly related to the question, you're out!",
+    imageUrl: MaathiYosi, // Yet to change
+    date: 9,
+  },
+  {
+    id: 7,
+    title: "Dumb Charades",
+    href: "/events/dumb-charades",
+    description:
+      "Dumb charades is a thrilling and hilarious twist on the classic charades game, where participants convey words or phrases without speaking, relying solely on gestures and expressions. It combines wit, creativity, and laughter, making it a perfect entertainment choice for a lively gathering.",
+    imageUrl: DumbCharades, // Yet to change
+    date: 9,
+  },
+];
+
+// Elite Events
+export const eliteEvents = [
+  {
+    id: 1,
+    title: "Astranova Coding",
+    href: "/events/astranova-coding",
+    description:
+      "Are you a passionate coder looking for an opportunity to showcase your skills? If yes, then join us for our upcoming Competitive Coding Challenge!",
+    imageUrl: AstranovaCoding,
+    date: 8,
+  },
+  {
+    id: 2,
+    title: "Rapid Coding",
+    href: "/events/rapid-coding",
+    description:
+      "Dive into the thrill of rapid coding at our symposium! Solve standard coding questions within tight timeframes, showcasing your coding prowess under pressure. Earn points for each problem cracked accurately, and compete against the clock to claim the top spot!",
+    imageUrl: RapidCoding,
+    date: 9,
+  },
+];
+export const temp = [
+  {
+    id: 1,
+    title: "Paper Presentation",
+    href: "/events/paper-presentation",
+    description:
+      "Action is the foundational key to success--Pablo Picasso. Elevate your ideas and let you ideas fly high along with your presentation.",
+    imageUrl: PaperPresentation,
+    date: 9,
+  },
+  {
+    id: 2,
+    title: "Ideathon",
+    href: "/events/ideathon",
+    description:
+      "IDEATHON inspires and empower participants to think outside the box and develop innovative solutions that can have a positive impact on society,making it an ideal platform for aspiring Entrepreneurs.",
+    imageUrl: Ideathon,
+    date: 8,
+  },
+  {
+    id: 3,
+    title: "Free Fire",
+    href: "/events/free-fire",
+    description:
+      "Get ready for a fire-fueled frenzy as you enter the battlegrounds of Free Fire! Jump into the action-packed world of survival shooter games and battle it out with your squad to become the last team standing.",
+    imageUrl: FreeFire,
+    date: 8,
+  },
+  // Valorant conducted for both March 8 & 9
+  {
+    id: 4,
+    title: "Valorant",
+    href: "/events/valorant",
+    description:
+      "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
+    imageUrl: Valorant,
+    date: 8,
+  },
+  {
+    id: 5,
+    title: "Valorant",
+    href: "/events/valorant",
+    description:
+      "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
+    imageUrl: Valorant,
+    date: 9,
+  },
+];
