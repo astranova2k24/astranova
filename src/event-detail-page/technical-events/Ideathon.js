@@ -33,13 +33,7 @@ const ideathon = {
 };
 
 const Ideathon = () => {
-  return (
-    <SingleEventPage
-      eventDetails={ideathon}
-      thirdprize={false}
-      formsLink={"https://forms.gle/Cjqv6iSrUk11dKg38"}
-    />
-  );
+  return <SingleEventPage eventDetails={ideathon} thirdprize={false} />;
 };
 
 export default Ideathon;
