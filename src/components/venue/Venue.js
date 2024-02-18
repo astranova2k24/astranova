@@ -17,7 +17,7 @@ const Venue = () => {
                 {" "}
                 <span className="text-2xl text-purple-500">D</span>ate
               </h2>
-              <p className="text-sm tracking-widest">08-09 March 2023</p>
+              <p className="text-sm tracking-widest">08-09 March 2024</p>
             </div>
           </div>
           <div className="h-1  w-[30%] sm:w-[16%] lg:w-[40%]  bg-purple-500 rounded-full"></div>
