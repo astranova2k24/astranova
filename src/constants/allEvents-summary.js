@@ -51,7 +51,7 @@ export const technicalEvents = [
     title: "Code Hunt",
     href: "/events/code-hunt",
     description:
-      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+      "A fun game of technical treasure hunt where the players have to solve each level to reach the treasure. The game contains 3 major levels.",
     imageUrl: CodeHunt,
     date: 8,
   },
@@ -69,7 +69,7 @@ export const technicalEvents = [
     title: "Ideathon",
     href: "/events/ideathon",
     description:
-      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+      "GIDEATHON is not just an event; it's a spirited competition challenging innovation and creativity. Dynamic teams and individuals, present your most innovative ideas to our esteemed panel for a chance to shine! 🌟 Are you ready to revolutionize the world? Join IDEATHON now!",
     imageUrl: Ideathon,
     date: 9,
   },
@@ -78,7 +78,7 @@ export const technicalEvents = [
     title: "Relay Coding",
     href: "/events/relay-coding",
     description:
-      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+      "Welcome to the ultimate coding showdown! Build your dream team of three to test your teamwork and programming skills! Be prepared for a test of the wits, nerves and trust.",
     imageUrl: RelayCoding,
     date: 9,
   },
@@ -87,7 +87,7 @@ export const technicalEvents = [
     title: "Prompt Engineering",
     href: "/events/prompt-engineering",
     description:
-      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+      "Can you replicate this image pixel-perfect? Test your precision and creativity in our prompt engineering challenge and showcase your AI prowess!",
     imageUrl: PromptEngineering,
     date: 9,
   },
@@ -96,19 +96,10 @@ export const technicalEvents = [
     title: "Paper Presentation",
     href: "/events/paper-presentation",
     description:
-      "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
+      "Action is the foundational key to success--Pablo Picasso. Elevate your ideas and let you ideas fly high along with your presentation.",
     imageUrl: PaperPresentation,
     date: 8,
   },
-  // {
-  //   id: 5,
-  //   title: "Web Masters",
-  //   href: "/events/web-masters",
-  //   description:
-  //     "Do you have a passion for web design? The Web Designing Event is your chance to shine! Create a website using HTML and CSS based on a sample design and features",
-  //   imageUrl: WebMasters,
-  //   date: 9,
-  // },
   {
     id: 9,
     title: "Seminar",
@@ -216,54 +207,6 @@ export const eliteEvents = [
     description:
       "Dive into the thrill of rapid coding at our symposium! Solve standard coding questions within tight timeframes, showcasing your coding prowess under pressure. Earn points for each problem cracked accurately, and compete against the clock to claim the top spot!",
     imageUrl: RapidCoding,
-    date: 9,
-  },
-];
-export const temp = [
-  {
-    id: 1,
-    title: "Paper Presentation",
-    href: "/events/paper-presentation",
-    description:
-      "Action is the foundational key to success--Pablo Picasso. Elevate your ideas and let you ideas fly high along with your presentation.",
-    imageUrl: PaperPresentation,
-    date: 9,
-  },
-  {
-    id: 2,
-    title: "Ideathon",
-    href: "/events/ideathon",
-    description:
-      "IDEATHON inspires and empower participants to think outside the box and develop innovative solutions that can have a positive impact on society,making it an ideal platform for aspiring Entrepreneurs.",
-    imageUrl: Ideathon,
-    date: 8,
-  },
-  {
-    id: 3,
-    title: "Free Fire",
-    href: "/events/free-fire",
-    description:
-      "Get ready for a fire-fueled frenzy as you enter the battlegrounds of Free Fire! Jump into the action-packed world of survival shooter games and battle it out with your squad to become the last team standing.",
-    imageUrl: FreeFire,
-    date: 8,
-  },
-  // Valorant conducted for both March 8 & 9
-  {
-    id: 4,
-    title: "Valorant",
-    href: "/events/valorant",
-    description:
-      "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
-    imageUrl: Valorant,
-    date: 8,
-  },
-  {
-    id: 5,
-    title: "Valorant",
-    href: "/events/valorant",
-    description:
-      "Step into the near-future world of Valorant and experience heart-pumping action and intense strategy with your team. Choose your unique agent with special abilities and compete in a tactical shooter game that will test your skills and leave you wanting more.",
-    imageUrl: Valorant,
     date: 9,
   },
 ];
