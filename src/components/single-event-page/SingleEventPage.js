@@ -264,7 +264,9 @@ export default function SingleEventPage({
                         First Place
                       </h2>
                       <h2 className="text-lg flex items-center gap-1 font-poppins tracking-widest text-white font-semibold">
-                        {isCoinPrize && <img src={CoinImg} width={20} />}
+                        {isCoinPrize && (
+                          <img src={CoinImg} alt="Gold Coin Icon" width={20} />
+                        )}
                         {isCoinPrize
                           ? ` ${eventDetails.firstprize}G Gold`
                           : `Rs.${eventDetails.firstprize}/-`}

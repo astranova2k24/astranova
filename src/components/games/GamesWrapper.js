@@ -89,7 +89,7 @@ export default function GamesWrapper({ children, isOnline }) {
                     E<span className="text-black text-xl">vents</span>{" "}
                   </div>
                 </Link>
-                {/* <Link
+                <Link
                   to={"/chronoline"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
                 >
@@ -106,7 +106,7 @@ export default function GamesWrapper({ children, isOnline }) {
                   <div className="text-purple-500 text-2xl ">
                     O<span className="text-black text-xl">ur Team</span>{" "}
                   </div>
-                </Link> */}
+                </Link>
               </ul>
             </motion.div>
           )}

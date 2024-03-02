@@ -31,7 +31,7 @@ export const onlineGames = [
     title: "BGMI",
     href: "/games/online/bgmi",
     description:
-      "Calling all masterminds and strategic thinkers! It's time to showcase your skills and dominate the chessboard in our epic Chess tournament. With each move, you'll be testing your opponent's wit and cunning while challenging your own.",
+      "In this adrenaline-fueled tactical shooter, you and your team will embark on a journey like no other, navigating through dynamic landscapes and engaging in high-stakes battles.",
     imageUrl: BGMI,
   },
   {
@@ -39,7 +39,7 @@ export const onlineGames = [
     title: "Free Fire",
     href: "/games/online/free-fire",
     description:
-      "Calling all masterminds and strategic thinkers! It's time to showcase your skills and dominate the chessboard in our epic Chess tournament. With each move, you'll be testing your opponent's wit and cunning while challenging your own.",
+      "In this adrenaline-fueled tactical shooter, you and your team will embark on a journey like no other, navigating through dynamic landscapes and engaging in high-stakes battles.",
     imageUrl: FreeFire,
   },
   {
@@ -47,7 +47,7 @@ export const onlineGames = [
     title: "Valorant",
     href: "/games/online/valorant",
     description:
-      "Calling all masterminds and strategic thinkers! It's time to showcase your skills and dominate the chessboard in our epic Chess tournament. With each move, you'll be testing your opponent's wit and cunning while challenging your own.",
+      "Prepare to immerse yourself in the heart-pounding action and strategic gameplay of Valorant, Riot Games' revolutionary tactical shooter.",
     imageUrl: Valorant,
   },
   // {

@@ -4,14 +4,22 @@ import { motion } from "framer-motion";
 import GradientAvatar from "../../assets/team-images/personAvatar1.png";
 
 // Board Members
-import karthiImg from "../../assets/team-images/board-members/karthick.jpg";
-import rishiImg from "../../assets/team-images/board-members/rishi.jpg";
-import sriSakthiImg from "../../assets/team-images/board-members/sriSakthi.jpg";
-import sriAdityaImg from "../../assets/team-images/board-members/sriAditya.jpg";
-import arunKumarImg from "../../assets/team-images/board-members/arunKumar.jpg";
+import IrfaanImg from "../../assets/team-images/board-members/irfaan.jpg";
+import AgalyaImg from "../../assets/team-images/board-members/agalya.jpg";
+import FathimaImg from "../../assets/team-images/board-members/fathima.jpg";
+import ThirisaPImg from "../../assets/team-images/board-members/thirisa-p.jpg";
+import SudharsanImg from "../../assets/team-images/board-members/sudharsan.jpg";
+import ThirishaaSVImg from "../../assets/team-images/board-members/thirishaa-sv.jpg";
+import DevaDhariniImg from "../../assets/team-images/board-members/devadharini.jpg";
+import GobiharanImg from "../../assets/team-images/board-members/gobiharan.jpg";
+// import karthiImg from "../../assets/team-images/board-members/karthick.jpg";
+// import rishiImg from "../../assets/team-images/board-members/rishi.jpg";
+// import sriSakthiImg from "../../assets/team-images/board-members/sriSakthi.jpg";
+// import sriAdityaImg from "../../assets/team-images/board-members/sriAditya.jpg";
+// import arunKumarImg from "../../assets/team-images/board-members/arunKumar.jpg";
 
 // Fund Riser
-import hareshV from "../../assets/team-images/fund-riser/haresh.jpg";
+import ArunImg from "../../assets/team-images/arun.jpg";
 
 // Dev Team
 import deepakImg from "../../assets/team-images/dev-team/deepak.jpg";
@@ -33,29 +41,79 @@ import narendaran from "../../assets/team-images/design-team/narendaran.jpg";
 
 const boardMembers = [
   {
-    name: "Karthick S",
-    role: "Chairman",
-    imageUrl: karthiImg,
+    name: "Irfaan Fareed A",
+    role: "Chairperson",
+    imageUrl: IrfaanImg,
   },
   {
-    name: "Rishi Ragavendar D",
+    name: "Agalya R",
+    role: "Chairperson",
+    imageUrl: AgalyaImg,
+  },
+  {
+    name: "Saifulla R",
     role: "President",
-    imageUrl: rishiImg,
+    imageUrl: GradientAvatar,
   },
   {
-    name: "Sri Sakthi B",
+    name: "Harini S",
+    role: "President",
+    imageUrl: GradientAvatar,
+  },
+  {
+    name: "Sudharsan S",
+    role: "Joint Secretary of IT",
+    imageUrl: SudharsanImg,
+  },
+  {
+    name: "Nithyasree P",
     role: "Vice President",
-    imageUrl: sriSakthiImg,
+    imageUrl: GradientAvatar,
   },
   {
-    name: "Adithya A",
-    role: "Treasurer",
-    imageUrl: sriAdityaImg,
+    name: "Aruneshwar T K",
+    role: "Vice President",
+    imageUrl: GradientAvatar,
   },
   {
-    name: "Arun Kumar V",
+    name: "Thirisa P",
+    role: "Vice President",
+    imageUrl: ThirisaPImg,
+  },
+  {
+    name: "Mohamed Abdur Rahman I",
+    role: "Vice President",
+    imageUrl: GradientAvatar,
+  },
+  {
+    name: "Gobiharan J",
     role: "Treasurer",
-    imageUrl: arunKumarImg,
+    imageUrl: GobiharanImg,
+  },
+  {
+    name: "Harish R",
+    role: "Treasurer",
+    imageUrl: GradientAvatar,
+  },
+  {
+    name: "Vishnu Prashanth B S",
+    role: "Treasurer",
+    imageUrl: GradientAvatar,
+  },
+  {
+    name: "Fathima Afra S",
+    role: "Treasurer",
+    imageUrl: FathimaImg,
+  },
+  {
+    name: "Devadharini K",
+    role: "Treasurer",
+    imageUrl: DevaDhariniImg,
+  },
+  {
+    name: "Thirishaa S V",
+    role: "Design Team Head",
+    imageUrl: ThirishaaSVImg,
   },
 ];
 
@@ -278,15 +336,37 @@ export default function OurTeam() {
             >
               <img
                 className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
-                src={hareshV}
+                src={ArunImg}
                 alt="Haresh"
               />
               <h3 className="mt-6 text-xl font-semibold leading-7 AstranovaHeroFont tracking-widest text-white">
-                Haresh V
+                Arunkumar S
               </h3>
               <p className="text-md leading-6 font-semibold tracking-wider font-poppins text-gray-400">
-                Joint Secretary of IT / Treasurer
+                Web & App Developer, Dept of CSE
               </p>
+              <ul className="mt-6 flex justify-center gap-x-6">
+                <li>
+                  <a
+                    href="https://github.com/arunn03"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-400 hover:text-gray-300"
+                  >
+                    <AiFillGithub size={22} />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/arunn03"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-gray-400 hover:text-gray-300"
+                  >
+                    <AiFillLinkedin size={22} />
+                  </a>
+                </li>
+              </ul>
             </motion.li>
           </ul>
         </div>
@@ -360,7 +440,7 @@ export default function OurTeam() {
         </div>
 
         {/* Design Team */}
-        <div className="mt-32">
+        {/* <div className="mt-32">
           <motion.h2
             initial="hidden"
             whileInView="visible"
@@ -403,7 +483,7 @@ export default function OurTeam() {
               </motion.li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

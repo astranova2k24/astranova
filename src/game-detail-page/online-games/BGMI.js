@@ -4,7 +4,7 @@ import BGMIImg from "../../assets/event-images/bgmi.jpeg";
 const freeFire = {
   image: BGMIImg,
   description:
-    "Welcome to the thrilling near-future realm of FreeFire, where every moment pulses with heart-pounding action and strategic intensity! In this adrenaline-fueled tactical shooter, you and your team will embark on a journey like no other, navigating through dynamic landscapes and engaging in high-stakes battles.",
+    "Welcome to the thrilling near-future realm of BGMI, where every moment pulses with heart-pounding action and strategic intensity! In this adrenaline-fueled tactical shooter, you and your team will embark on a journey like no other, navigating through dynamic landscapes and engaging in high-stakes battles.",
   type: "Elite Event",
   eventName: "BGMI",
   dateTime: "Mar 08 / 09, 6PM-9PM",

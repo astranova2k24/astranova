@@ -23,8 +23,8 @@ import MaathiYosi from "../assets/event-images/maathi-yosi.jpg";
 
 // Elite
 import PaperPresentation from "../assets/event-images/paperpresentation.jpg";
-import Valorant from "../assets/event-images/valorant.jpg";
-import FreeFire from "../assets/event-images/freefire.jpg";
+// import Valorant from "../assets/event-images/valorant.jpg";
+// import FreeFire from "../assets/event-images/freefire.jpg";
 
 // technical
 export const technicalEvents = [
@@ -108,17 +108,17 @@ export const technicalEvents = [
       "In reality every industry is bound to be automated.There is already software that can efficiently perform the analysis. Artificial intelligence and Machine learning are bound to take the place of human beings in this field too.",
     imageUrl: Seminar,
     date: 8,
-    comingSoon: true,
+    // comingSoon: true,
   },
   {
     id: 10,
     title: "Workshop",
     href: "/events/workshop",
     description:
-      "This workshop focuses on leveraging the Python programming language and the Django framework for the purpose of developing a robust backend. Participants will have the opportunity to acquire practical experience through interactive training sessions.",
+      "Orange is an open-source data visualization, machine learning, and data mining toolkit. It offers a visual programming interface for data analysis, allowing users to interactively explore and analyze datasets without needing to write code.",
     imageUrl: Workshop,
     date: 9,
-    comingSoon: true,
+    // comingSoon: true,
   },
 ];
 

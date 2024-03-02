@@ -23,7 +23,7 @@ import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
 import { SiEventstore, SiRiotgames } from "react-icons/si";
-// import { VscOrganization } from "react-icons/vsc";
+import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 
 import { Helmet } from "react-helmet";
@@ -210,7 +210,7 @@ const About = () => {
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
                 </Link>
-                {/* <Link
+                <Link
                   to={"/team"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
                 >
@@ -218,7 +218,7 @@ const About = () => {
                   <div className="text-purple-500 text-2xl ">
                     O<span className="text-black text-xl">ur Team</span>{" "}
                   </div>
-                </Link> */}
+                </Link>
                 <Link
                   to={"/contact-us"}
                   className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-purple-300 "

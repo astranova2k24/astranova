@@ -11,8 +11,8 @@ import BugBusters from "./event-detail-page/technical-events/BugBusters";
 import TechnicalQuiz from "./event-detail-page/technical-events/TechnicalQuiz";
 import RelayCoding from "./event-detail-page/technical-events/RelayCoding";
 // import WebMasters from "./event-detail-page/technical-events/WebMasters";
-// import Workshop from "./event-detail-page/technical-events/Workshop";
-// import Seminar from "./event-detail-page/technical-events/Seminar";
+import Workshop from "./event-detail-page/technical-events/Workshop";
+import Seminar from "./event-detail-page/technical-events/Seminar";
 import CodeHunt from "./event-detail-page/technical-events/CodeHunt";
 import PromptEngineering from "./event-detail-page/technical-events/PromptEngineering";
 
@@ -82,8 +82,8 @@ function App() {
               />
               <Route path="/events/relay-coding" element={<RelayCoding />} />
               {/* <Route path="/events/web-masters" element={<WebMasters />} /> */}
-              {/* <Route path="/events/workshop" element={<Workshop />} /> */}
-              {/* <Route path="/events/seminar" element={<Seminar />} /> */}
+              <Route path="/events/workshop" element={<Workshop />} />
+              <Route path="/events/seminar" element={<Seminar />} />
               <Route
                 path="/events/reverse-coding"
                 element={<ReverseCoding />}
