@@ -78,6 +78,9 @@ export default function AllEvents() {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.6 }}
               className="absolute top-14 z-100 right-0 opacity-95 w-72 h-auto bg-white rounded-lg AstranovaHeroFont "
+              style={{
+                zIndex: 10,
+              }}
             >
               <ul>
                 <Link
