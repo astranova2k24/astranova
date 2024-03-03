@@ -69,7 +69,7 @@ export const technicalEvents = [
     title: "Ideathon",
     href: "/events/ideathon",
     description:
-      "GIDEATHON is not just an event; it's a spirited competition challenging innovation and creativity. Dynamic teams and individuals, present your most innovative ideas to our esteemed panel for a chance to shine! 🌟 Are you ready to revolutionize the world? Join IDEATHON now!",
+      "IDEATHON is not just an event; it's a spirited competition challenging innovation and creativity. Dynamic teams and individuals, present your most innovative ideas to our esteemed panel for a chance to shine! 🌟 Are you ready to revolutionize the world? Join IDEATHON now!",
     imageUrl: Ideathon,
     date: 9,
   },
@@ -105,7 +105,7 @@ export const technicalEvents = [
     title: "Seminar",
     href: "/events/seminar",
     description:
-      "In reality every industry is bound to be automated.There is already software that can efficiently perform the analysis. Artificial intelligence and Machine learning are bound to take the place of human beings in this field too.",
+      "With today's cars being more connected than ever, thanks to features like Wi-Fi, Bluetooth, and GPS, they're also more vulnerable to cyber attacks. But fear not! Cybersecurity in connected cars involves deploying cutting-edge defenses.",
     imageUrl: Seminar,
     date: 8,
     // comingSoon: true,

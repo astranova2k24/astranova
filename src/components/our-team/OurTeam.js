@@ -12,6 +12,8 @@ import SudharsanImg from "../../assets/team-images/board-members/sudharsan.jpg";
 import ThirishaaSVImg from "../../assets/team-images/board-members/thirishaa-sv.jpg";
 import DevaDhariniImg from "../../assets/team-images/board-members/devadharini.jpg";
 import GobiharanImg from "../../assets/team-images/board-members/gobiharan.jpg";
+import NithyasreeImg from "../../assets/team-images/board-members/nithyasree.jpg";
+import HariniImg from "../../assets/team-images/board-members/harini.jpg";
 // import karthiImg from "../../assets/team-images/board-members/karthick.jpg";
 // import rishiImg from "../../assets/team-images/board-members/rishi.jpg";
 // import sriSakthiImg from "../../assets/team-images/board-members/sriSakthi.jpg";
@@ -27,17 +29,17 @@ import gunaImg from "../../assets/team-images/dev-team/guna.jpg";
 import { Helmet } from "react-helmet";
 
 // Design Team
-import arun from "../../assets/team-images/design-team/arunkumar.jpg";
 import barath from "../../assets/team-images/design-team/barath.jpg";
-import hareeshRam from "../../assets/team-images/design-team/hareeshram.jpg";
-import harsha from "../../assets/team-images/design-team/harsha.jpg";
-import karthikeyan from "../../assets/team-images/design-team/karthikeyan.jpg";
-import pradeep from "../../assets/team-images/design-team/pradeep.jpg";
-import sakthivel from "../../assets/team-images/design-team/sakthivel.jpg";
-import tharan from "../../assets/team-images/design-team/tharan.jpg";
-import thurka from "../../assets/team-images/design-team/thurka.jpg";
-import kavi from "../../assets/team-images/design-team/kavi.jpg";
-import narendaran from "../../assets/team-images/design-team/narendaran.jpg";
+// import arun from "../../assets/team-images/design-team/arunkumar.jpg";
+// import hareeshRam from "../../assets/team-images/design-team/hareeshram.jpg";
+// import harsha from "../../assets/team-images/design-team/harsha.jpg";
+// import karthikeyan from "../../assets/team-images/design-team/karthikeyan.jpg";
+// import pradeep from "../../assets/team-images/design-team/pradeep.jpg";
+// import sakthivel from "../../assets/team-images/design-team/sakthivel.jpg";
+// import tharan from "../../assets/team-images/design-team/tharan.jpg";
+// import thurka from "../../assets/team-images/design-team/thurka.jpg";
+// import kavi from "../../assets/team-images/design-team/kavi.jpg";
+// import narendaran from "../../assets/team-images/design-team/narendaran.jpg";
 
 const boardMembers = [
   {
@@ -58,7 +60,7 @@ const boardMembers = [
   {
     name: "Harini S",
     role: "President",
-    imageUrl: GradientAvatar,
+    imageUrl: HariniImg,
   },
   {
     name: "Sudharsan S",
@@ -68,7 +70,7 @@ const boardMembers = [
   {
     name: "Nithyasree P",
     role: "Vice President",
-    imageUrl: GradientAvatar,
+    imageUrl: NithyasreeImg,
   },
   {
     name: "Aruneshwar T K",
@@ -149,73 +151,73 @@ const webDevelopers = [
   },
 ];
 
-const designTeam = [
-  {
-    name: "Thurkaraman R",
-    role: "Team Head",
-    imageUrl: thurka,
-  },
-  {
-    name: "Arun Kumar S",
-    role: "Member",
-    imageUrl: arun,
-  },
-  {
-    name: "Narendran S",
-    role: "Member",
-    imageUrl: narendaran,
-  },
-  {
-    name: "Ashwin S",
-    role: "Member",
-    imageUrl: GradientAvatar,
-  },
-  {
-    name: "Jananitharan",
-    role: "Member",
-    imageUrl: tharan,
-  },
-  {
-    name: "Hareesh Ram",
-    role: "Member",
-    imageUrl: hareeshRam,
-  },
-  {
-    name: "Kavikumar C",
-    role: "Member",
-    imageUrl: kavi,
-  },
-  {
-    name: "Vikram",
-    role: "Member",
-    imageUrl: GradientAvatar,
-  },
-  {
-    name: "Sajeev",
-    role: "Member",
-    imageUrl: GradientAvatar,
-  },
-  {
-    name: "Pratheep",
-    role: "Member",
-    imageUrl: pradeep,
-  },
-  {
-    name: "Sakthivel",
-    role: "Member",
-    imageUrl: sakthivel,
-  },
-  {
-    name: "Harshavardhan",
-    role: "Member",
-    imageUrl: harsha,
-  },
-  {
-    name: "Karthikeyan",
-    role: "Member",
-    imageUrl: karthikeyan,
-  },
-];
+// const designTeam = [
+//   {
+//     name: "Thurkaraman R",
+//     role: "Team Head",
+//     imageUrl: thurka,
+//   },
+//   {
+//     name: "Arun Kumar S",
+//     role: "Member",
+//     imageUrl: arun,
+//   },
+//   {
+//     name: "Narendran S",
+//     role: "Member",
+//     imageUrl: narendaran,
+//   },
+//   {
+//     name: "Ashwin S",
+//     role: "Member",
+//     imageUrl: GradientAvatar,
+//   },
+//   {
+//     name: "Jananitharan",
+//     role: "Member",
+//     imageUrl: tharan,
+//   },
+//   {
+//     name: "Hareesh Ram",
+//     role: "Member",
+//     imageUrl: hareeshRam,
+//   },
+//   {
+//     name: "Kavikumar C",
+//     role: "Member",
+//     imageUrl: kavi,
+//   },
+//   {
+//     name: "Vikram",
+//     role: "Member",
+//     imageUrl: GradientAvatar,
+//   },
+//   {
+//     name: "Sajeev",
+//     role: "Member",
+//     imageUrl: GradientAvatar,
+//   },
+//   {
+//     name: "Pratheep",
+//     role: "Member",
+//     imageUrl: pradeep,
+//   },
+//   {
+//     name: "Sakthivel",
+//     role: "Member",
+//     imageUrl: sakthivel,
+//   },
+//   {
+//     name: "Harshavardhan",
+//     role: "Member",
+//     imageUrl: harsha,
+//   },
+//   {
+//     name: "Karthikeyan",
+//     role: "Member",
+//     imageUrl: karthikeyan,
+//   },
+// ];
 
 export default function OurTeam() {
   return (
@@ -331,19 +333,19 @@ export default function OurTeam() {
                 hidden: { opacity: 0, x: 120 },
                 visible: { opacity: 1, x: 0 },
               }}
-              key="Haresh"
+              key="Arunkumar"
               className="rounded-2xl transition-shadow ease-in-out duration-300 shadow-md hover:shadow-lg hover:shadow-purple-500  shadow-purple-400 bg-[#111111] py-10 px-8"
             >
               <img
                 className="mx-auto h-48 w-48 rounded-full md:h-56 md:w-56"
                 src={ArunImg}
-                alt="Haresh"
+                alt="Arunkumar"
               />
               <h3 className="mt-6 text-xl font-semibold leading-7 AstranovaHeroFont tracking-widest text-white">
                 Arunkumar S
               </h3>
               <p className="text-md leading-6 font-semibold tracking-wider font-poppins text-gray-400">
-                Web & App Developer, Dept of CSE
+                Web & App Developer
               </p>
               <ul className="mt-6 flex justify-center gap-x-6">
                 <li>
