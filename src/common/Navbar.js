@@ -114,7 +114,7 @@ const Navbar = () => {
                   C<span className="text-black text-xl">hronoline</span>{" "}
                 </div>
               </Link>
-              <Link
+              {/* <Link
                 to={"/team"}
                 className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
               >
@@ -122,7 +122,7 @@ const Navbar = () => {
                 <div className="text-purple-500 text-2xl ">
                   O<span className="text-black text-xl">ur Team</span>{" "}
                 </div>
-              </Link>
+              </Link> */}
               <Link
                 to={"/contact-us"}
                 className="flex text-lg px-4 py-4 items-center gap-3 rounded-b-lg  transition-all duration-300 ease-in-out hover:bg-purple-300 "

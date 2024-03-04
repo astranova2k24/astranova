@@ -57,12 +57,12 @@ const Footer = () => {
                 <span>C</span>hronoline
               </Link>
             </li>
-            <li className="footer-items  ">
+            {/* <li className="footer-items  ">
               <Link to={"/team"} className="footer-links">
                 <span>O</span>ur
                 <span className=" ml-2">T</span>eam
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
 
@@ -111,7 +111,7 @@ const Footer = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://instagram.com/astranova_2k24"
+            href="https://instagram.com/_astranova_2k24"
           >
             <GrInstagram size={18} className="social-media" />
           </a>
