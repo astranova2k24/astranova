@@ -8,7 +8,7 @@ const relayCoding = {
     "Welcome to the ultimate coding showdown! Build your dream team of three to test your teamwork and programming skills! Be prepared for a test of the wits, nerves and trust.",
   type: "Technical Event",
   eventName: "Relay Coding",
-  dateTime: "March 09, 11:00AM - 01:00PM",
+  dateTime: "March 09, 12:00PM - 01:30PM",
   venue: "IT-443",
   rules: [
     "Each team should consist of three members.",

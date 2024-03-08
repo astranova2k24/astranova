@@ -7,7 +7,7 @@ const maathiYosi = {
     "Try your best to not answer the question! Reply to as many questions as you can without giving a logical answer to any of them. If your answer is even slightly related to the question, you're out!",
   type: "Non Technical Event",
   eventName: "Maathi Yosi",
-  dateTime: "Mar 09, 12:30PM - 01:30PM",
+  dateTime: "Mar 09, 03:00PM - 04:00PM",
   venue: "IT-207",
   rules: [
     "Anyone can participate.",

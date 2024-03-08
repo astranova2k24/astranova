@@ -8,7 +8,7 @@ const promptEngineering = {
     "Can you replicate this image pixel-perfect? Test your precision and creativity in our prompt engineering challenge and showcase your AI prowess!",
   type: "Technical Event",
   eventName: "Prompt Engineering",
-  dateTime: "March 09, 02:30PM - 03:30PM",
+  dateTime: "March 09, 03:00PM - 04:00PM",
   venue: "IT-443",
   rules: [
     "All participants must use playground.ai as the image generation platform.",

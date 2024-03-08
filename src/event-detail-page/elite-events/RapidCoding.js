@@ -8,7 +8,7 @@ const rapidCoding = {
     "Dive into the thrill of rapid coding at our symposium! Solve standard coding questions within tight timeframes, showcasing your coding prowess under pressure. Earn points for each problem cracked accurately, and compete against the clock to claim the top spot!",
   type: "Golden-Byte Event",
   eventName: "Rapid Coding",
-  dateTime: "March 09, 09:30AM - 11:00AM",
+  dateTime: "March 09, 10:00AM - 12:00PM",
   venue: "IT-443",
   rules: [
     "Solo Participation.",

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../../assets/logo.png";
-import { GiTimeSynchronization } from "react-icons/gi";
+// import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { VscOrganization } from "react-icons/vsc";
@@ -92,15 +92,15 @@ export default function GamesWrapper({ children, isOnline }) {
                     E<span className="text-black text-xl">vents</span>{" "}
                   </div>
                 </Link>
-                {/* <Link
-                  to={"/chronoline"}
+                <Link
+                  to={"#"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
                 >
                   <GiTimeSynchronization size={20} />{" "}
                   <div className="text-purple-500 text-2xl ">
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
-                </Link> */}
+                </Link>
                 {/* <Link
                   to={"/team"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "

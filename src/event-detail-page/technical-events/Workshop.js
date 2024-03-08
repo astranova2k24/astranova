@@ -8,7 +8,7 @@ const workshop = {
     "Orange is an open-source data visualization, machine learning, and data mining toolkit. It offers a visual programming interface for data analysis, allowing users to interactively explore and analyze datasets without needing to write code. Orange provides ML functionalities such as data preprocessing, feature selection, classification, regression, clustering, association rule mining, and more.",
   type: "Technical Event",
   eventName: "Work Shop",
-  dateTime: "March 09, 11:00AM - 1:00PM ",
+  dateTime: "Mar 9, 10AM-12:30PM, 2PM-4PM",
   venue: "IT-444",
   rules: [
     "Orange is an open-source data visualization, machine learning, and data mining toolkit developed at the University of Ljubljana, Slovenia. It offers a visual programming interface for data analysis, allowing users to interactively explore and analyze datasets without needing to write code.",

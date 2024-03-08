@@ -7,7 +7,7 @@ const dumbCharades = {
     "Dumb charades is a thrilling and hilarious twist on the classic charades game, where participants convey words or phrases without speaking, relying solely on gestures and expressions. It combines wit, creativity, and laughter, making it a perfect entertainment choice for a lively gathering.",
   type: "Non Technical Event",
   eventName: "Dumb Charades",
-  dateTime: "Mar 09, 02:30PM - 03:30PM",
+  dateTime: "Mar 09, 12:00PM - 01:00PM",
   venue: "IT-207",
   rules: [
     "Participants must act out words or phrases silently, without uttering any sounds.",

@@ -7,7 +7,7 @@ const movieQuiz = {
     "Dive into the enchanting realm of South Indian cinema with the 'Kollywood Quiz'! From timeless classics to contemporary blockbusters, test your Tamil cinema expertise in a friendly and entertaining competition. We celebrate the magic of Kollywood together. Don't miss this chance to showcase your love for Tamil cinema!",
   type: "Non Technical Event",
   eventName: "Kollywood Quiz",
-  dateTime: "Mar 09, 10:30AM - 11:30AM",
+  dateTime: "Mar 09, 02:00PM - 03:00PM",
   venue: "IT-444",
   rules: [
     "Each team will consist of at most three members.",

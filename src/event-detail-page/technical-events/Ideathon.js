@@ -8,7 +8,7 @@ const ideathon = {
     "Get ready for a thrilling ride into the world of creativity and groundbreaking ideas! IDEATHON is not just an event; it's a spirited competition challenging innovation and creativity. Dynamic teams and individuals, present your most innovative ideas to our esteemed panel for a chance to shine! 🌟 Are you ready to revolutionize the world? Join IDEATHON now!",
   type: "Elite Event",
   eventName: "Ideathon",
-  dateTime: "Mar 09, 02:00PM - 04:00PM",
+  dateTime: "Mar 09, 10:00AM - 04:00PM",
   venue: "IT-206",
   rules: [
     "Each team is required to develop a concise and captivating presentation (in PPT format) to present their concept to a distinguished panel of evaluators and fellow participants. The presentation should be meticulously crafted, engaging, and effectively communicate the proposed solution.",

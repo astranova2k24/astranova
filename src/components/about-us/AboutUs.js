@@ -17,13 +17,13 @@ import Rajasree from "../../assets/staffs/Rajasree-mam.jpg";
 import Thilagavathi from "../../assets/staffs/Thilaga-mam.jpg";
 // Nav imports
 import logo from "../../assets/logo.png";
-import { GiTimeSynchronization } from "react-icons/gi";
+// import { GiTimeSynchronization } from "react-icons/gi";
 import { HiOutlineHome } from "react-icons/hi";
 import { useState } from "react";
 import { AiOutlineDoubleRight } from "react-icons/ai";
 import { FaTeamspeak } from "react-icons/fa";
 import { SiEventstore, SiRiotgames } from "react-icons/si";
-import { VscOrganization } from "react-icons/vsc";
+// import { VscOrganization } from "react-icons/vsc";
 import { TbUnlink } from "react-icons/tb";
 
 import { Helmet } from "react-helmet";
@@ -201,15 +201,15 @@ const About = () => {
                     G<span className="text-black text-xl">ames</span>{" "}
                   </div>
                 </Link>
-                {/* <Link
-                  to={"/chronoline"}
+                <Link
+                  to={"#"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
                 >
                   <GiTimeSynchronization size={20} />{" "}
                   <div className="text-purple-500 text-2xl ">
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
-                </Link> */}
+                </Link>
                 {/* <Link
                   to={"/team"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
