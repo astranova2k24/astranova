@@ -201,7 +201,7 @@ const About = () => {
                     G<span className="text-black text-xl">ames</span>{" "}
                   </div>
                 </Link>
-                <Link
+                {/* <Link
                   to={"/chronoline"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "
                 >
@@ -209,7 +209,7 @@ const About = () => {
                   <div className="text-purple-500 text-2xl ">
                     C<span className="text-black text-xl">hronoline</span>{" "}
                   </div>
-                </Link>
+                </Link> */}
                 {/* <Link
                   to={"/team"}
                   className="flex text-lg px-4 py-4 items-center gap-3 transition-all duration-300 ease-in-out hover:bg-purple-300 "

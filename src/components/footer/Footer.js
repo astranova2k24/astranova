@@ -52,11 +52,11 @@ const Footer = () => {
                 <span>G</span>ames
               </Link>
             </li>
-            <li className="footer-items  ">
+            {/* <li className="footer-items  ">
               <Link to={"/chronoline"} className="footer-links">
                 <span>C</span>hronoline
               </Link>
-            </li>
+            </li> */}
             {/* <li className="footer-items  ">
               <Link to={"/team"} className="footer-links">
                 <span>O</span>ur

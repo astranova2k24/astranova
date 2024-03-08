@@ -1,7 +1,7 @@
-import OurTeam from "./components/our-team/OurTeam";
+// import OurTeam from "./components/our-team/OurTeam";
 import { Routes, Route } from "react-router-dom";
 import ContactUs from "./components/contact-us/ContactUs";
-import Chronoline from "./components/chronoline/Chronoline";
+// import Chronoline from "./components/chronoline/Chronoline";
 import AllEvents from "./components/all-events/AllEvents";
 import Home from "./components/home/Home";
 import AboutUs from "./components/about-us/AboutUs";
@@ -71,7 +71,7 @@ function App() {
               <Route path="/" element={<Home />} />
               {/* <Route path="/team" element={<OurTeam />} /> */}
               <Route path="/events" element={<AllEvents />} />
-              <Route path="/chronoline" element={<Chronoline />} />
+              {/* <Route path="/chronoline" element={<Chronoline />} /> */}
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/about-us" element={<AboutUs />} />
               {/* Technical-Events */}
